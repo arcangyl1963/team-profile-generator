@@ -1,0 +1,14 @@
+<div class="col" id="intern">
+    <div class="card p-0 shadow">
+        <div class="card-body text-white bg-primary mb-2">
+            <h4 class="card-title text-white">${intern.name}</h4>
+            <h5 class="card-title text-white"><i class="fas fa-user-graduate mr-2"></i>${intern.getRole()}</h5>
+        </div>
+        <ul class="list-group list-group-flush m-4 p-2" style="border: lightgrey solid .0625rem;">
+            <li class="list-group-item" >ID: ${intern.id}</li>
+            <li class="list-group-item">Email: <a href="mailto:${intern.email}">${intern.email}</a></li>
+            <li class="list-group-item">School/University: ${intern.school}</li>
+        </ul>
+        <br>
+    </div>
+</div>
