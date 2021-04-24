@@ -38,22 +38,22 @@ async function createHTML() {
         await inquirer.prompt ([
             {
                 type: 'input',
-                message: "Enter team member (${i})'s name:",
+                message: `Enter team member (${i})'s name:`,
                 name: 'name'
             },
             {
                 type: 'input',
-                message: "Enter team member (${i})'s ID:",
+                message: `Enter team member (${i})'s ID:`,
                 name: 'id'
             },
             {
                 type: 'input',
-                message: "Enter team member (${i})'s email address:",
+                message: `Enter team member (${i})'s email address:`,
                 name: 'email'
             },
             {
                 type: 'list',
-                message: "Enter team member (${i})'s title:",
+                message: `Enter team member (${i})'s title:`,
                 name: 'title',
                 choices: ['Manager', 'Engineer', 'Intern']
             }
