@@ -67,13 +67,18 @@ To launch the application type the following into Terminal or the command-line u
 node index.js
 ~~~
 
-The first question prompt will appear if the launch is successful. Read each question carefully and enter you answers for each prompt.
+The first question prompt will appear if the launch is successful. Read each question carefully and enter your answers for each prompt.
 
 ![README File Generator launch](./dist/images/team-profile-generator-usage.png)
 
 The first prompt asks you to enter the number of members on your team. This serves as a means to validate at least one member is entered as well as control the display of the question prompts. The next prompt will display after you enter a reponse to the previous question. You will answer the same set of questions for each team member based on the number you enter in response to the first prompt.
 
-When the 'myteam.html' file has been successfully created, a prompt appears noting the success.
+Note that each team member role will have one question unique to that role:
+* If manager is selected, the user will be prompted to enter the manager's office number.
+* When engineer is selected, the user will be prompted to enter the engineer's GitHub username.
+* If intern is selected, the user will be prompted to enter the name of the school the intern was attending or attended.<br>
+
+When the 'myteam.html' file has been successfully created, a prompt appears noting the success.<br>
 
 You may also watch a brief walk-through video explaining each step:<br> 
 [![Team Profiler app in VS Code](http://img.youtube.com/vi/ytfgdHSTA4Y/0.jpg)](http://www.youtube.com/watch?v=ytfgdHSTA4Y "team-profile-generator-video-screenshot.png")
